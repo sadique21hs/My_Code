@@ -40,7 +40,7 @@ n=len(List1)
 rand=random.randint(0,n-1)
 print(f"Computer Chose: {List1[rand]}")
 
-if x>=2 or x<0:
+if x>=2 and x<0:
     print("You typed an invalid number, you lose!")
 
 elif rand>x:
