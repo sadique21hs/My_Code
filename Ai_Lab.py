@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 data = {
      'Name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan'],
     'Salary': [55000.0, 62000.5, 75000.0, 80000.0, 47000.0],
